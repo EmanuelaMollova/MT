@@ -1,0 +1,15 @@
+test_iter: 60
+test_interval: 1350
+base_lr: 0.000067
+display: 2700
+max_iter: 32400
+lr_policy: "step"
+gamma: 0.10000
+momentum: 0.9
+weight_decay: 0.005
+stepsize: 13500
+snapshot: 13500
+snapshot_prefix: "/home/emanuela/MasterThesis/MasterThesis/activity_recognition/models/finetuning-googlenet/finetune_dailyactivities"
+solver_mode: GPU
+net: "/home/emanuela/MasterThesis/MasterThesis/activity_recognition/models/finetuning-googlenet/train_val_learn_all.prototxt"
+solver_type: SGD
