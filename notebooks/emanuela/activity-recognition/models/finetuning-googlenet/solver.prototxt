@@ -1,0 +1,15 @@
+test_iter: 90
+test_interval: 1687
+base_lr: 0.000067
+display: 3374
+max_iter: 33750
+lr_policy: "step"
+gamma: 0.10000
+momentum: 0.9
+weight_decay: 0.005
+stepsize: 16875
+snapshot: 16875
+snapshot_prefix: "models/finetuning-googlenet/three_users/result_snapshot"
+solver_mode: GPU
+net: "models/finetuning-googlenet/train_val.prototxt"
+solver_type: SGD

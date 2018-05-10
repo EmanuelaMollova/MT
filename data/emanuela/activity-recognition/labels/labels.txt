@@ -1,0 +1,21 @@
+public transport
+driving
+walking outdoor
+walking indoor
+biking
+having drinks with somebody
+having drinks/meal alone
+having meal with somebody
+socializing
+attending a seminar
+meeting
+reading
+tv
+cleaning and chores
+working
+cooking
+shopping
+talking
+resting
+mobile
+plane
