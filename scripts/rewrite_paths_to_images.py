@@ -19,9 +19,9 @@ def rewrite_paths_in_file(new_path, input_path, output_path):
     file.write("\n".join(new_lines))
 
 if __name__ == "__main__":
-    new_path    = ''
-    input_path  = '/home/emanuela/MT/datasets/user1_unseen/test.txt'
-    output_path = '/home/emanuela/MT/datasets/user1_unseen/test_.txt'
+    new_path    = '../../../data/emanuela/activity-recognition/images/NTCIR-Lifelog-256'
+    input_path  = '/home/emanuela/caffe-docker/data/emanuela/activity-recognition/labels/user3_unseen/train.txt'
+    output_path = '/home/emanuela/caffe-docker/data/emanuela/activity-recognition/labels/user3_unseen/train.txt'
 
     print("Replacing directory path with '%s' from %s to %s" % (new_path, input_path, output_path))
 
